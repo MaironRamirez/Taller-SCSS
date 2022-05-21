@@ -1,0 +1,13 @@
+@import "variables";
+
+#indexPage{
+    margin: 20px;
+
+    & .header-content{
+        background-color: $bg-color-header;
+
+        &__title{
+            font-size: 26px;
+        }
+    }
+}
